@@ -17,6 +17,7 @@ function One(){
         <div className='absolute left-40 top-32'>
           <div>
             <div className='mb-10'>
+            <div className='absolute h-[650px] w-[1000px] rounded-full backdrop-blur opacity-45  border-black'></div>
               <div className='w-[700px] h-[160px]'>
                 <h1 className='font-extrabold text-[72px]'>Tokenization of Real-World Assets</h1>
               </div>
@@ -25,34 +26,36 @@ function One(){
               </div>
             </div>
           </div>
-          <div className='flex flex-row'>
-            <div className='w-[370px] h-[64px]'>
-              <h2 className='font-extrabold text-[28px]'>
-                Book a free consultation
-              </h2>
+          <div className=''>
+            <div className='inline-flex'>
+              <div className=''>
+                <h2 className='font-extrabold text-[28px]'>
+                  Book a free consultation
+                </h2>
+              </div>
+              <div className=''>
+                <input type="text" placeholder='Your name' className='bg-white w-[270px] h-[48px] p-2'/>
+              </div>
+              <div className=''>
+                <input type="text" placeholder='Your email' className='bg-white w-[270px] h-[48px] ml-10 p-2'/>
+              </div>
+              <div className=''>
+                <button className='btn-primary w-[170px] h-[48px] text-white ml-20'>Book</button>
+              </div>
             </div>
-            <div className='w-[270px] h-[76px]'>
-              <input type="text" placeholder='Your name' className='bg-white w-[270px] h-[48px] p-2'/>
-            </div>
-            <div className='w-[270px] h-[76px]'>
-              <input type="text" placeholder='Your email' className='bg-white w-[270px] h-[48px] ml-10 p-2'/>
-            </div>
-            <div className='w-[170px] h-[48px]'>
-              <button className='btn-primary w-[170px] h-[48px] text-white ml-20'>Book</button>
-            </div>
-          </div>
-          <div className='flex flex-row'>
-            <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
-              <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
-              <p className='text-[16px]'>Find out if your product is eligible</p>
-            </div>
-            <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
-              <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
-              <p className='text-[16px]'>Find out if your product is eligible</p>
-            </div>
-            <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
-              <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
-              <p className='text-[16px]'>Find out if your product is eligible</p>
+            <div className='inline-flex'>
+              <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
+                <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
+                <p className='text-[16px]'>Find out if your product is eligible</p>
+              </div>
+              <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
+                <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
+                <p className='text-[16px]'>Find out if your product is eligible</p>
+              </div>
+              <div className='w-[370px] h-[112px] border-2 border-black rounded-[7px] p-7 mr-10 backdrop-blur'>
+                <h3 className='font-bold text-[24px]'>What can be tokenized</h3>
+                <p className='text-[16px]'>Find out if your product is eligible</p>
+              </div>
             </div>
           </div>
         </div>
