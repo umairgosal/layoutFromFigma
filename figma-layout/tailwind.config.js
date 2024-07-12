@@ -11,6 +11,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Mont: ['Montserrat'],
+        dmSans: ['DM Sans']
+      }
     },
   },
 
