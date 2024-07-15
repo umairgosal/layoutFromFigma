@@ -1,5 +1,5 @@
 import React from 'react'
-import wavyBlack from '/home/gosal/Documents/coding/internship/LayoutFromFigma/figma-layout/src/assets/wavy-black-white-background 1.png'
+import wavyBlack from '../assets/wavy-black-white-background 1.png'
 import circleImg from '../assets/screen2 1.png'
 import screenThree from '../assets/screen 3 1.png'
 import screenfour from '../assets/screen 4 1.png'
