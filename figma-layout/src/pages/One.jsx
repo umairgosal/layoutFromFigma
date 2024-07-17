@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import wavyBlack from '../assets/wavy-black-white-background 1.png'
 import circleImg from '../assets/screen2 1.png'
 import screenThree from '../assets/screen 3 1.png'
